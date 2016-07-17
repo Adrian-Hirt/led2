@@ -1,0 +1,30 @@
+{
+  "name": "led",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "angular": "^1.5.6",
+    "express": "^4.13.4",
+    "forever": "^0.15.1",
+    "http": "^0.0.0",
+    "jquery": "^2.2.4",
+    "ng-file-upload": "^12.0.4",
+    "node.io": "^0.5.1",
+    "socket.io": "^1.4.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SwatVI/led.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SwatVI/led/issues"
+  },
+  "homepage": "https://github.com/SwatVI/led#readme"
+}

@@ -1,0 +1,54 @@
+[
+    {
+      "title": "Style 1",
+      "description": "This is the first style I made, it changes the color off the top LEDs based on the intensity of the song, and the bottom LEDs fill more or less, depending on the strength of the bass."
+    },
+    {
+      "title": "Style 2",
+      "description": "This style is very similar to the first one, but the bottom LEDs aren't just the bass. The LEDs in the back display the bass, the middle ones the middle and the front ones the heights of the song that's playing."
+    },
+    {
+      "title": "Style 3",
+      "description": "Again, this style is similar to the first one, but now the bottom LEDs aren't white, they have the same color as the top LEDs."
+    },
+    {
+      "title": "Style 4",
+      "description": "Another variation of the first style, here, the bottom LEDs fade from the color of the top LEDs to white."
+    },
+    {
+      "title": "Style 5",
+      "description": "A really calm style, it just changes the saturation of the color from low to high depending on the intensity of the song."
+    },
+    {
+      "title": "Style 6",
+      "description": "Fills the LEDs from the middle with white lights."
+    },
+    {
+      "title": "Style 7",
+      "description": "Fills the LEDs from the end to the middle with a color based on the intensity of the song."
+    },
+    {
+      "title": "MLG",
+      "description": "Half of the LED stripes have the color based on the intensity of the song, the other half have the complement of that color, making it a bit more messy. Also, it changes the background video of this control panel to something more MLG."
+    },
+    {
+      "title": "Rainbow Sinus",
+      "description": "A slowly moving rainbow made with a sin function, nothing too special."
+    },
+    {
+      "title": "Rainbow Linear",
+      "description": "Another rainbow, however this one is made with a linear function, making the colors more even distributed."
+    },
+    {
+      "title": "White",
+      "description": "Set all LEDs to white, nothing special."
+    },
+    {
+      "title": "White Strobe",
+      "description": "A white strobe, turning all LEDs on and off in a rapid succession."
+    },
+    {
+      "title": "Color Strobe",
+      "description": "Another strobe, but this one also changes the color of the LEDs based on the song. WARNING: This effect has not been tested, but it should work."
+    }
+]

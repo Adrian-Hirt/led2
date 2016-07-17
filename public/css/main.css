@@ -1,0 +1,263 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu);
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    color: white !important;
+}
+
+a {
+    color: #DFBA69 !important;
+}
+
+a:hover,
+a:focus {
+    color: #DFBA69 !important;
+}
+
+
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+  display: none !important;
+}
+
+.stop{
+    clear: both;
+}
+
+.musicBtn {
+    width: 80%;
+    white-space:normal !important;
+}
+
+.controlBtn {
+    width: 20%;
+    white-space:normal !important;
+}
+
+.musicgroup {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#top {
+    width: 100%;
+    background-color: black;
+    height: 10px;
+}
+
+.vert {
+    height: 410px;
+    background-color: black;
+    width: 10px;
+    margin-right: 166px;
+    float: left;
+}
+
+.vert:last-child {
+    margin-right: 0px;
+}
+
+.musicgroup1 {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.musicRow {
+    width: 100%;
+    color: #BBB;
+    height: 41px;
+    border-left: 1px solid grey;
+    border-top: 1px solid grey;
+    border-right: 1px solid grey;
+}
+
+.musicRow:last-child {
+    border-bottom: 1px solid grey;
+}
+
+.addToPlaylist {
+    background-color: #151515;
+    color: #BBB;
+    height: 39px;
+    text-align: center;
+    line-height: 40px;
+    border-left: 1px solid grey;
+}
+
+.musicInfos {
+    background-color: #151515;
+    height: 39px;
+    line-height: 40px;
+}
+
+.musicList {
+    height: 400px;
+    overflow-y: scroll;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.playerControls {
+    height: 400px;
+}
+.stylegroup {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.styleBtn {
+    width: 25%;
+    white-space:normal !important;
+}
+
+.activeSong {
+    color: #DFBA69 !important;
+}
+
+.playlist {
+    height: 265px;
+    overflow-y: scroll;
+    background-color: #151515 !important;
+    color: #BBB !important;
+    padding: 10px;
+}
+
+.songInfo {
+    font-size: 20px;
+    margin-bottom: 10px;
+    background-color: rgba(21, 21, 21, 0.48);
+    padding: 10px;
+}
+
+.musicListTitle {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    width: 713px !important;
+    border-bottom: 3px solid grey;
+}
+
+.background {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(polina.jpg) no-repeat;
+    background-size: cover;
+}
+
+.mainContainer {
+    background-image: url('../img/bg.png');
+    height: 100vh;
+    width: 100%;
+}
+
+.btn-default {
+    background-color: #151515 !important;
+    color: #BBB !important;
+    border-radius: 0 !important;
+}
+
+hr {
+    border-top: 1px solid white;
+}
+
+::-webkit-scrollbar {
+    width: 16px;
+}
+ 
+::-webkit-scrollbar-track { 
+    background-color: #151515;
+}
+ 
+::-webkit-scrollbar-thumb {
+     background-color: #BBB;
+}
+.uploadInput {
+    background-color: #151515;
+    border: 0;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+input[type=file] {
+    display: none !important;
+}
+
+.custom-file-upload {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    background-color: #151515;
+}
+
+.navContainer {
+    padding-top: 20px;
+}
+
+.nav-tabs li.active a {
+    background-color: #151515 ! important;
+}
+
+.nav-tabs li a {
+    color: white !important;
+    background-color: rgba(21, 21, 21, 0.48) !important;
+    border: 0 !important;
+    border-radius: 0 !important;
+    margin: 0 !important;
+}
+
+.nav-tabs {
+    border: 0 !important;
+}
+
+.aboutContainer {
+    margin-top:10px;
+    padding-top: 10px;
+    background-color: rgba(21, 21, 21, 0.48);
+    min-height: 90vh;
+}
+
+.aboutContainer h2 {
+    margin-top: 0px;
+}
+
+.ledStyleInfo {
+    background-color: rgba(21, 21, 21, 0.48);
+    min-height: 150px;
+}
+
+.searchInput {
+    background-color: #151515;
+    border: 0;
+    padding: 10px;
+    margin-bottom: 10px;
+    float: left;
+}
+
+#deleteSearchTerm {
+    background-color: #151515;
+    margin: 0px;
+    height: 40px;
+    display: block;
+    width: 40px;
+    float: left;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+}
+
+.sortorder:after {
+  content: '\25b2';   // BLACK UP-POINTING TRIANGLE
+}
+
+.sortorder.reverse:after {
+  content: '\25bc';   // BLACK DOWN-POINTING TRIANGLE
+}

@@ -67,7 +67,7 @@ app.controller('IndexController', function($scope, socket, styles) {
     var ctx = new AudioContext();
 
     var errorCallback = function() {
-        alert('Error');
+        alert('Dayum, something went terribly wrong, but at least trump is not the president of the USA (yet)');
     };
 
     navigator.getUserMedia = ( navigator.getUserMedia ||

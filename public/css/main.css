@@ -261,3 +261,15 @@ input[type=file] {
 .sortorder.reverse:after {
   content: '\25bc';   // BLACK DOWN-POINTING TRIANGLE
 }
+
+
+
+.foot {
+    height: 50px;
+    width: 100%;
+    background-color: rgba(49, 52, 53, 0.51);
+    position: absolute;
+    bottom: 0;
+    line-height: 50px;
+    text-align: center;
+}

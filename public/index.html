@@ -18,10 +18,7 @@
         <video src='img/mlg.mp4' loop muted class="background" id="background2">
         </video>
         
-        
-        <div id="player">
-            <audio src="" crossorigin="anonymous" id="thePlayer"></audio>
-        </div>
+          
         <div class="mainContainer">
             <div class="container navContainer">
                 <ul class="nav nav-tabs">
@@ -75,6 +72,9 @@
                     <br>
                     It uses the <a href="https://developer.mozilla.org/de/docs/Web/API/AudioContext/createAnalyser">AudioContext</a> API built into modern browsers to analyze the song, then sends it via Socket.io
                     to the Node.js backend. The backend then turns the data it got into RGB values for the LEDs, which are finally sent to the LED stripes via UDP.
+                    <br>
+                    <br>
+                    This is the second version, which uses an audio input as the source for the visualisation. The first version used a audio player built in JS, but the audio input gives additional freedom as basically any audio source (microphone, mp3 from the computer, even a game) can be visualized.
                     <hr>
                     <h4>Team</h4>
                     Coding & Design: Adrian Hirt <a href="mailto:hirta@student.ethz.ch"><i class="fa fa-envelope" aria-hidden="true"></i></a><br>
@@ -84,6 +84,9 @@
             </div> 
             <div class="container">
                 
+            </div>
+            <div class="foot">
+                Made by Adrian Hirt | Visit me on <a href="https://github.com/SwatVI/led2">Github</a> 
             </div>
         </div>
         

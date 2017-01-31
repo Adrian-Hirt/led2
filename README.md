@@ -1,3 +1,5 @@
+# Because the LEDs aren't installed anymore, development is paused at the moment!
+
 # Bastli LED Contest entry, Team Obamaqualizer
 
 This is an application for the Bastli LED Contest, using Angular.js, Node.js and Socket.io. It features a webinterface with which you can control the LEDs
